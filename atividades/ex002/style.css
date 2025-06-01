@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: auto;
+}
+
+section {
+    max-width: 300px;
+    background-color: rgb(149, 246, 178);
+    border-radius: 10px;
+}
+div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 200px;
+    max-height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div>input {
+    border-radius: 5px;
+    text-align: center;
+}
+button {
+    border-radius: 10px;
+    border-style: none;
+}
+
+button:hover {
+    background-color: burlywood;
+}
